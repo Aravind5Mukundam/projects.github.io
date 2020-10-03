@@ -1,0 +1,31 @@
+body{
+  background-color: black;
+}
+.stopwatch{
+  text-align: center;
+  margin-top: 250px;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 15px;
+}
+
+.controls{
+  display: flex;
+}
+
+.display{
+  font-size: 75px;
+  font-weight: bold;
+  position: sticky;
+}
+
+button{
+  font-family: 'Orbitron', sans-serif;
+  flex-grow: 1;
+  margin: 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+button:hover{
+  cursor: pointer;
+}
